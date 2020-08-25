@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>projetox</title>
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, 
+    maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos3.css">
+    <title>Página de cadastro de nome</title>
+</head>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="1.col-4">
+                <h1>Cadastro de Nomes</h1>
+
+                <a href="projetox_cadastro.html" class="btn btn-primary"> Cadastro de nomes</a>
+                <a href="projetox_tabela.html" class="btn btn-success">Tabela de Nomes</a>
+                <a href="projetox_deletar.html" class="btn btn-danger">Deletar Nomes</a>
+                <form class="form" onsubmit="cadastro(event, this);">
+
+
+                    <h4></h4>
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="name" autofocus>
+                        <input type="button" class="btn btn-primary" value="Enviar" id="enviar">
+                    </p>
+                    <div class="row">
+                        <div class="form___group">
+                            <span class="form___requirement">* O campo deve ser informado.</span>
+                        </div>
+                    </div>
+                    <p id="resposta"></p>
+
+                    </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/projetox_cadastro.js"></script>
+</body>
+
+</html>
